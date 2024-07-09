@@ -50,3 +50,16 @@ console.log(JSON.stringify(obj3)); // Convertir a JSON string
 console.log(Object.assign({}, obj1, { país: "España" })); // Asignar nuevas propiedades
 console.log(Object.entries(obj2)); // Obtener pares clave-valor
 console.log("edad" in obj3); // Verificar si una propiedad existe
+
+// Ejemplo Arrays
+let arr1 = [1, 2, 3, 4, 5];
+let arr2 = ["a", "b", "c", "d"];
+let arr3 = [true, false, true, false];
+
+console.log(arr1.length); // Longitud del array
+console.log(arr2.push("e")); // Agregar elemento
+console.log(arr3.join(", ")); // Convertir a string
+
+console.log(arr1.pop()); // Eliminar último elemento
+console.log(arr2.slice(1, 3)); // Obtener una sub-sección del array
+console.log(arr3.includes(true)); // Verificar si contiene un valor
